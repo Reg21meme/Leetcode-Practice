@@ -11,7 +11,7 @@ public:
                 return {i,m[target-nums[i]]};
             }else{
                 m[nums[i]] = i;
-            } //hello
+            } 
         }
         return {0,0};
     }
